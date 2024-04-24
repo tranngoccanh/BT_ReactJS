@@ -1,0 +1,104 @@
+.LoginForm {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #feaf00, #f8d442);
+}
+.LoginForm form {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 475px;
+  height: 550px;
+  box-shadow: 2px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-top: 1px;
+}
+
+.LoginForm form .Login_header h2 {
+  padding-left: 5px;
+  height: 39px;
+  width: 342.5px;
+  font-size: 32px;
+  line-height: 39.01px;
+  font-weight: 700;
+  border-left: 6px solid #f8d442;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+.LoginForm .Login_header h4 {
+  margin-top: 43px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.82px;
+}
+
+.LoginForm .Login_header p {
+  margin-top: 9px;
+  font-weight: 100;
+  font-size: 14px;
+  color: #6c6c6c;
+  line-height: 17.07px;
+}
+
+.LoginForm .Login_body {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 415px;
+  text-align: left;
+}
+
+.LoginForm .Login_body label {
+  width: 100%;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #6c6c6c;
+}
+
+.LoginForm .Login_body input {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  width: 415px;
+  height: 44px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.LoginForm .Login_body .Password {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.LoginForm .Login_body .icon {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+}
+
+.LoginForm .Login_footer button {
+  width: 415px;
+  height: 44px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #feaf00;
+  border: #feaf00;
+}
+
+.LoginForm .Login_footer p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+}
+
+.LoginForm .Login_footer a {
+  color: #feaf00;
+}

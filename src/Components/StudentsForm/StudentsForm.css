@@ -1,0 +1,181 @@
+.Students_Form {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+/* 
+.Students_Form .Students_header {
+  position: relative;
+  background-color: #ffffff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.Students_Form input {
+  width: 212px;
+  height: 37px;
+  border-radius: 8px;
+  border: 1px;
+  margin-right: 100px;
+}
+
+.Students_Form .Students_header .search .input_search {
+  width: 212px;
+  height: 37px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding-left: 20px;
+  position: relative;
+}
+.icon_search {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 50%;
+  right: 70px;
+  transform: translateY(-50%);
+}
+
+.icon_caret {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.icon_bell {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 35%;
+  right: 15px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.students_main_top {
+  display: flex;
+  align-items: center;
+}
+
+.students_main_top p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.82px;
+  margin-right: auto;
+  margin-left: 25px;
+}
+
+.add_button {
+  display: flex;
+}
+
+.add_button button.add_students {
+  width: 199px;
+  height: 44px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #feaf00;
+  border: none;
+  margin-right: 35px;
+}
+
+.add_button .icon_arrow {
+  width: 25px;
+  height: 25px;
+  color: #feaf00;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+hr {
+  width: 1110.01px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.Students_Form .Students_main {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  background-color: #f8f8f8;
+}
+
+.Students_Form .Students_main .tables {
+  margin-top: 8px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 110px 160px 220px 155px 216px 250px 60px 30px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.tables div:nth-child(1) {
+  grid-column-start: 2;
+}
+
+/* Selects the second child */
+.tables div:nth-child(2) {
+  grid-column-start: 3;
+}
+
+/* Selects the third child */
+.tables div:nth-child(3) {
+  grid-column-start: 4;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  text-align: left;
+}
+
+/* Selects the fourth child */
+.tables div:nth-child(4) {
+  grid-column-start: 5;
+}
+
+.tables div:nth-child(5) {
+  grid-column-start: 6;
+}
+
+.tables div:nth-child(6) {
+  grid-column-start: 7;
+}
+
+.Students_Form .Students_main .table_content {
+  height: 85px;
+  margin-top: 8px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 110px 160px 220px 155px 216px 250px 60px 30px;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.avt {
+  width: 65px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 140%;
+}
+
+.content_icon {
+  color: #FEAF00;
+  width: 18px;
+  height: 18px;
+}

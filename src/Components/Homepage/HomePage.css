@@ -1,0 +1,185 @@
+.HomePage_Form {
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fdfdfd;
+}
+
+/* .HomePage_Form .Home_header{
+    position: relative;
+    background-color: #FFFFFF ;
+    height: 60px;
+    width: 100%;
+   display: flex;
+   flex-direction: row-reverse;
+    align-items: center;
+}
+
+.HomePage_Form input{
+    width: 212px;
+    height: 37px;
+    border-radius: 8px;
+    border: 1px;
+    margin-right: 50px;
+}
+
+.HomePage_Form .Home_header .search .input_search {
+    width: 212px;
+    height: 37px;
+    border-radius: 8px;
+    border: 1px solid black; 
+    padding-left: 20px;
+    position: relative; 
+}
+.icon_search {
+    width: 14px;
+    height: 14px;
+    position: absolute; 
+    top: 50%; 
+    right: 60px; 
+    transform: translateY(-50%);
+}
+
+
+.icon_caret {
+    width: 18px;
+    height: 18px;
+    position: absolute; 
+    top: 50%; 
+    left: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.icon_bell{
+    width: 18px;
+    height: 18px;
+    position: absolute; 
+    top: 35%; 
+    right: 15px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.HomePage_Form .Home_main {
+
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.HomePage_Form .Home_main .count_student {
+    width: 255px;
+    height: 157px;
+    background-color: #F0F9FF;
+    border-radius: 8px;
+}
+
+.HomePage_Form .Home_main .count_course {
+    width: 255px;
+    height: 157px;
+    background-color: #FEF6FB;
+    border-radius: 8px;
+}
+
+
+.HomePage_Form .Home_main .count_payments {
+    width: 255px;
+    height: 157px;
+    background-color: #FEFBEC;
+    border-radius: 8px;
+}
+
+.HomePage_Form .Home_main .count_users {
+    width: 255px;
+    height: 157px;
+    background-image: linear-gradient(to right, #feaf00, #f8d442);
+    border-radius: 8px;
+}
+
+.HomePage_Form .Home_main .icon_student {
+    width: 48px;
+    height: 38px;
+    color: #74C1ED;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.HomePage_Form .Home_main .icon_course {
+    width: 28px;
+    height: 35px;
+    color: #EE95C5;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.HomePage_Form .Home_main .icon_payments {
+    width: 35px;
+    height: 35px;
+    color: #F6C762;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.HomePage_Form .Home_main .icon_users {
+    width: 34px;
+    height: 34px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px
+}
+
+.HomePage_Form .Home_main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.count_student p:nth-child(3) {
+    height: 37px;
+    width: 56px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+.count_course p:nth-child(3) {
+    height: 37px;
+    width: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.count_payments p:nth-child(3) {
+    height: 37px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    margin-left: 70px;
+}
+
+.count_payments span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+}
+
+.count_users p:nth-child(3) {
+    height: 37px;
+    width: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    margin-left: auto;
+    margin-right: 10px;
+}

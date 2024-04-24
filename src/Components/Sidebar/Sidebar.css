@@ -1,0 +1,118 @@
+.SideBar_header{
+    background-color: #F2EAE1;
+    width: 270px;
+    height: 100vh;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.SideBar_header h3{
+  padding-left: 5px;
+  height: 24px;
+  top: 18px;
+  font-size: 20px;
+  line-height: 24.38px;
+  font-weight: 700;
+  border-left: 4px solid #f8d442;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.SideBar_header .img{
+  width: 128px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 30px;
+
+}
+
+.SideBar_header img{
+  width: 100%;
+  height: 126%;
+  object-fit: cover;
+
+}
+
+.SideBar_header h4{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.72px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.SideBar_header p{
+    text-align: center;
+    color: #FEAF00;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    margin-top: 20px;
+}
+
+.sidebar_body{
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.07px;
+  margin-top: 40px;
+}
+
+.sidebar_body .sidebar_button{
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 20% 5% 5% 20% 20%;
+  align-items: center;
+  width: 193px;
+  
+}
+
+.sidebar_button:hover{
+  background-color: #FEAF00;
+  border-radius: 5px;
+}
+
+.sidebar_body .sidebar_button a{
+  color: black;
+  text-decoration: none;
+  grid-column: 4;
+  padding: 10px;
+
+}
+
+.sidebar_body .sidebar_button svg{
+  grid-column: 2;
+}
+
+.SideBar_footer {
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.07px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+    bottom: 10px;
+}
+
+.SideBar_footer .sidebar_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.SideBar_footer .sidebar_button a{
+  color: black;
+  text-decoration: none;
+  grid-column: 4;
+  padding: 10px;
+}
